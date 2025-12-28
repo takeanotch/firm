@@ -566,7 +566,7 @@ export default function Navbar() {
       {/* MOBILE MENU */}
       <div
         ref={mobileMenuRef}
-        className="fixed inset-0 bg-white text-black z-40 flex flex-col items-center justify-center gap-8 text-xl"
+        className="fixed w-full inset-0 bg-white text-black z-40 flex flex-col items-center justify-center gap-8 text-xl"
         style={{ clipPath: 'circle(0% at 90% 5%)' }}
       >
         {/* MENU LINKS */}

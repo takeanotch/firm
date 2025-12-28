@@ -1195,7 +1195,7 @@ export default function HeroPage() {
                   repeatType: "reverse"
                 }}
               />
-              Leader en Sécurité & Tenues Professionnelles
+              Leader en Sécurité
             </motion.div>
             
             {/* Main Heading */}
