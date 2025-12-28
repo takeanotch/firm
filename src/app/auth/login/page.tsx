@@ -404,7 +404,7 @@ export default function LoginPage() {
           <p className="text-xs text-gray-600">
             Pas de compte ?{' '}
             <Link 
-              href="/signup" 
+              href="/auth/signup" 
               className="text-gray-900 font-medium hover:text-gray-700 hover:underline"
             >
               S'inscrire
