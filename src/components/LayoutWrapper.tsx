@@ -22,7 +22,7 @@ export default function LayoutWrapper({
   return (
     <>
       <NavBar />
-      <main className="bg-white pt-12"> {/* pt-16 pour compenser la navbar fixe */}
+      <main className="bg-white pt-12 overflow-hidden"> {/* pt-16 pour compenser la navbar fixe */}
         {children}
       </main>
       <FooterUltraMinimal />
