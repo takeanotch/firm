@@ -977,7 +977,7 @@ export default function CompleteProfileSeeker() {
               ) : (
                 <>
                   <Check className="w-4 h-4" />
-                  Enregistrer et continuer SEEKER
+                  Enregistrer 
                 </>
               )}
             </button>
