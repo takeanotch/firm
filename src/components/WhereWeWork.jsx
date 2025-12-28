@@ -192,7 +192,7 @@ const WhereWeWork = () => {
   };
 
   return (
-    <section className="relative py-16 px-4 md:px-8 lg:px-16 bg-gradient-to-b from-white to-gray-50 overflow-hidden">
+    <section className="relative py-16 px-4 md:px-8 lg:px-16  overflow-hidden">
       {/* Section Title */}
       <motion.div
         initial={{ opacity: 0, y: 30 }}
@@ -213,7 +213,7 @@ const WhereWeWork = () => {
         ></motion.div>
       </motion.div>
 
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Left Column: Text Content avec animation en cascade */}
         <motion.div
           variants={containerVariants}
@@ -319,13 +319,7 @@ const WhereWeWork = () => {
       ></motion.div>
 
       {/* Ajout d'une ligne animée en bas */}
-      <motion.div
-        initial={{ width: 0, opacity: 0 }}
-        whileInView={{ width: "100%", opacity: 0.1 }}
-        transition={{ duration: 1.5, delay: 0.5 }}
-        viewport={{ once: true }}
-        className="absolute bottom-0 left-0 h-px bg-gradient-to-r from-transparent via-orange-500 to-transparent"
-      ></motion.div>
+     
     </section>
   );
 };

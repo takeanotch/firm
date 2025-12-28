@@ -651,42 +651,7 @@ export default function QuiSommesNousPage() {
                   </section>
                 </SectionWrapper> */}
 
-                {/* Link to Gallery - Mobile version */}
-                <motion.div 
-                  className="lg:hidden"
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={useInView(containerRef, { once: false }) ? { 
-                    opacity: 1, 
-                    y: 0,
-                    transition: { delay: 1.2 }
-                  } : { opacity: 0, y: 20 }}
-                >
-                  <motion.div
-                    whileHover={{ scale: 1.02 }}
-                    whileTap={{ scale: 0.98 }}
-                  >
-                    <Link 
-                      href="/about/gallery"
-                      className="inline-flex items-center justify-center w-full gap-2 px-6 py-3 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors group"
-                    >
-                      <span className="font-medium">Voir la galerie complète</span>
-                      <svg 
-                        className="w-5 h-5 transition-transform group-hover:translate-x-1" 
-                        fill="none" 
-                        stroke="currentColor" 
-                        viewBox="0 0 24 24" 
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path 
-                          strokeLinecap="round" 
-                          strokeLinejoin="round" 
-                          strokeWidth="2" 
-                          d="M14 5l7 7m0 0l-7 7m7-7H3"
-                        />
-                      </svg>
-                    </Link>
-                  </motion.div>
-                </motion.div>
+              
 
                 {/* Bouton Voir Plus */}
                 <SectionWrapper delay={1.4}>
