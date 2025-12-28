@@ -503,7 +503,7 @@ export default function SignupPage() {
   }
 
   return (
-    <div className="w-full max-w-md mx-auto">
+    <div className="w-full max-w-md mx-auto p-4">
       <div className="mb-8 text-center">
         <h2 className="text-2xl font-bold text-gray-900 mb-2">Inscription</h2>
         <p className="text-sm text-gray-500">Créez votre compte</p>

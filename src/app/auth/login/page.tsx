@@ -189,6 +189,8 @@
 //     </div>
 //   )
 // }
+
+
 'use client'
 
 import { useEffect, useState } from 'react'
@@ -300,7 +302,7 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="w-full max-w-sm mx-auto">
+    <div className="w-full max-w-sm mx-auto p-4">
        <Link href="/" className="flex w-max mt-5 mx-auto items-center  font-black hover:opacity-80 transition-opacity">
                   <img src='/pnz.png' className='invert w-14 h-14' alt="Stone Consulting Logo"/>
                   <p>
