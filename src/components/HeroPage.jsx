@@ -498,9 +498,9 @@ export default function HeroPage() {
 
   // Images pour le carousel
   const carouselImages = [
-    { src: "/one.jpg", alt: "Service de Sécurité" },
-    { src: "/two.jpg", alt: "Service de Nettoyage" },
-    { src: "/three.jpg", alt: "Service de Gardiennage" }
+    { src: "/services/safety.png", alt: "Service de Sécurité" },
+    { src: "/services/cleaning3.jpg", alt: "Service de Nettoyage" },
+    { src: "/services/security.jpg", alt: "Service de Gardiennage" }
   ];
 
   // Services avec descriptions

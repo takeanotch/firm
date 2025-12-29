@@ -96,13 +96,14 @@
 //     </div>
 //   )
 // }
+
+
 import { redirect } from 'next/navigation'
 import { getUserProfile } from '@/lib/auth-utils'
 import { createClient } from '@/lib/supabase/server'
-import DashboardAdmin from '@/components/dashboard/admin'
 import DashboardEmployer from '@/components/dashboard/employer'
 import SeekerProfilePage from '@/components/dashboard/seeker'
-
+import DashboardAdmin from '@/components/dashboard/admin'
 export default async function DashboardPage() {
   const supabase = await createClient()
   const profile = await getUserProfile()
@@ -191,7 +192,7 @@ export default async function DashboardPage() {
 
       {/* CONTENT BASED ON ROLE */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
-        {profile.role === 'admin' && <DashboardAdmin profile={profile} />}
+        {profile.role === 'admin' && <DashboardAdmin />}
         {profile.role === 'employer' && <DashboardEmployer profile={profile}  />}
         {profile.role === 'seeker' && <SeekerProfilePage/>}
       </main>

@@ -360,7 +360,7 @@ export const metadata = {
 
 const galleryImages = [
   {
-    src: '/one.jpg',
+    src: '/on.jpg',
     alt: 'Équipe de sécurité NPA',
     title: 'Notre équipe de sécurité'
   },
@@ -379,9 +379,9 @@ const galleryImages = [
 
 const CardStack = () => {
   const images = [
-    { id: 1, src: '/one.jpg', alt: 'Service de sécurité et gardiennage', rotation: '-6deg' },
-    { id: 2, src: '/two.jpg', alt: 'Tenues de travail personnalisées', rotation: '0deg' },
-    { id: 3, src: '/five.jpg', alt: 'Service de nettoyage professionnel', rotation: '6deg' },
+    { id: 1, src: '/services/fence.jpg', alt: 'Service de sécurité et gardiennage', rotation: '-6deg' },
+    { id: 2, src: '/services/safety2.jpg', alt: 'Tenues de travail personnalisées', rotation: '0deg' },
+    { id: 3, src: '/services/security2.jpg', alt: 'Service de nettoyage professionnel', rotation: '6deg' },
   ];
 
   const ref = useRef(null);
@@ -502,7 +502,6 @@ export default function QuiSommesNousPage() {
                       className="group relative inline-flex items-center gap-2 px-6 py-3 text-gray-600 rounded-lg overflow-hidden transition-all hover:bg-gray-800"
                     >
                       <div className="absolute inset-0 w-0 bg-white bg-opacity-20 group-hover:w-full transition-all duration-300" />
-                      <span className="relative font-medium">Voir la galerie complète</span>
                       <svg 
                         className="w-5 h-5 relative transition-transform group-hover:translate-x-1" 
                         fill="none" 

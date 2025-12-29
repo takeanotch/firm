@@ -138,7 +138,7 @@ export default function CompleteProfileAdmin() {
       }
       
       // Rediriger vers le dashboard admin
-      router.push('/admin/dashboard')
+      router.push('/dashboard')
       router.refresh()
       
     } catch (error: any) {
@@ -270,7 +270,7 @@ export default function CompleteProfileAdmin() {
             <div className="flex items-center justify-between pt-6 border-t border-gray-200">
               <button
                 type="button"
-                onClick={() => router.push('/admin/dashboard')}
+                onClick={() => router.push('/dashboard')}
                 className="px-6 py-3 border border-gray-300 hover:border-black transition-colors"
               >
                 Passer pour l'instant

@@ -472,11 +472,11 @@ const TeamPage = () => {
     },
     {
       id: 2,
-      name: "Sophie Bernard",
-      role: "Designer UI/UX",
-      bio: "Créatrice d'interfaces intuitives et esthétiques.",
+      name: "Mr DENIS",
+      role: "CEO",
+      bio: "President Directeur General.",
       email: "sophie.b@company.com",
-      image: "/nine.jpg",
+      image: "/ceo.jpg",
     },
     {
       id: 3,

@@ -452,3 +452,12 @@ a:hover {
 .border-next-gray {
   border-color: var(--next-gray);
 }
+/* Dans votre fichier CSS global */
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
